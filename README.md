@@ -1,7 +1,7 @@
 The AlsaMixer command-line tool `/usr/sbin/alsactl` is missing in ODBeta, so the script by @vloschiavo isn't going to work on the Adam Image.
 
 I grabbed `alsactl` from the original OD and confirmed it works with ODBeta and I've rewritten the script to use it:
-https://github.com/neilswann80/DinguxAlsaMixerSave
+https://github.com/neilswann80/DinguxAlsaMixerSave/releases/tag/alamixer
 
 `S91alsaSettings` as before needs to be saved here:
 `/media/data/local/etc/init.d` (via ssh or a linux PC)
